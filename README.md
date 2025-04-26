@@ -21,23 +21,14 @@ Page Object Model (POM) design pattern
 
 🚀 How to Run the Project
 Clone this repository:
-
-bash
-Copy
-Edit
 git clone https://github.com/your-username/amazon-selenium-automation.git
 Open the project in Eclipse or IntelliJ IDEA.
 
 Install all Maven dependencies:
-
-bash
-Copy
-Edit
 mvn clean install
 Update your chromedriver.exe path if necessary.
 
 Run the TestNG test files:
-
 CartTest.java
 SearchTest.java
 
@@ -56,10 +47,8 @@ After running tests, an ExtentReport (ExtentReport.html) will be generated insid
 Krishnapriya N
 www.linkedin.com/in/krishnapriya-n-bab8741bb
 
-📣 Contributions
-Contributions, issues, and feature requests are welcome!
+📣 Contributions, issues, and feature requests are welcome!
 Feel free to fork the repo and submit a pull request. 🤝
 
-📜 License
-This project is licensed under the MIT License.
+📜 This project is licensed under the MIT License.
 
