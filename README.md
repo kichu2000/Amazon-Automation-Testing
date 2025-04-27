@@ -1,6 +1,6 @@
 🛒 Amazon Selenium Automation Project
 
-![Banner](https://raw.githubusercontent.com/kichu2000/Amazon-Automation-Testing/master/Banner.png)
+![Banner](https://raw.githubusercontent.com/kichu2000/Amazon-Automation-Testing/master/banner.jpg)
 
 📜 Project Description
 This project demonstrates an end-to-end automation workflow for purchasing a laptop on Amazon.com, using Selenium WebDriver, Java, TestNG, and Maven.
