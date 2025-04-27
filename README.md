@@ -1,31 +1,22 @@
 🛒 Amazon Selenium Automation Project
 
 📜 Project Description
-This project automates the workflow of purchasing a laptop on Amazon.com using Selenium WebDriver with Java, Maven for project management, and TestNG for testing.
+This project demonstrates an end-to-end automation workflow for purchasing a laptop on Amazon.com, using Selenium WebDriver, Java, TestNG, and Maven.
+The automation covers searching for a product, selecting it from search results, adding it to the cart, updating quantity, and proceeding towards checkout — all built following the Page Object Model (POM) design pattern.
 
-It covers:
-
-Searching for a product
-
-Selecting the first product from search results
-
-Adding the product to the cart
-
-Changing quantity to 2
-
-Proceeding towards purchase
+Key Features
+🔎 Product Search: Automates searching for laptops.
+🛒 Add to Cart: Selects the first product and adds it to the cart.
+🔄 Update Quantity: Changes the quantity of the product to two.
+✅ Proceed to Purchase: Simulates proceeding towards checkout.
+📊 Custom Reporting: Generates detailed ExtentReports for test execution.
 
 🛠️ Technologies Used
 Java 11
-
 Selenium WebDriver
-
 TestNG
-
 Maven
-
 ExtentReports for reporting
-
 Page Object Model (POM) design pattern
 
 🚀 How to Run the Project
@@ -76,7 +67,6 @@ After running tests, an ExtentReport (ExtentReport.html) will be generated insid
 
 ✍️ Author
 Krishnapriya N
-
 www.linkedin.com/in/krishnapriya-n-bab8741bb
 
 📣 Contributions
