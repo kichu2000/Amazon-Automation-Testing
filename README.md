@@ -1,5 +1,7 @@
 🛒 Amazon Selenium Automation Project
 
+![Banner](https://raw.githubusercontent.com/kichu2000/Amazon-Automation-Testing/master/Banner.png)
+
 📜 Project Description
 This project demonstrates an end-to-end automation workflow for purchasing a laptop on Amazon.com, using Selenium WebDriver, Java, TestNG, and Maven.
 The automation covers searching for a product, selecting it from search results, adding it to the cart, updating quantity, and proceeding towards checkout — all built following the Page Object Model (POM) design pattern.
