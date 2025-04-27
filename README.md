@@ -21,42 +21,20 @@ Page Object Model (POM) design pattern
 
 🚀 How to Run the Project
 Clone this repository:
-
-bash
-Copy
-Edit
 git clone https://github.com/your-username/amazon-selenium-automation.git
 Open the project in Eclipse or IntelliJ IDEA.
 
 Install all Maven dependencies:
-
-bash
-Copy
-Edit
 mvn clean install
 Update your chromedriver.exe path if necessary.
 
 Run the TestNG test files:
-
 CartTest.java
-
 SearchTest.java
 
 📂 Project Structure
-css
-Copy
-Edit
-Amazon-Selenium-Automation/
- ├── src/main/java
- │    ├── com.automation.pages/     (Page classes)
- │    ├── com.automation.utilities/ (Utilities like Extent Report)
- │    └── com.automation.SeleniumProject/ (Base Tests)
- ├── src/test/java
- │    └── com.automation.SeleniumProject/ (Test Cases)
- ├── reports/
- │    └── ExtentReport.html
- ├── pom.xml
- ├── README.md
+
+Amazon-Selenium-Automation/ ├── src/ │ ├── main/ │ │ └── java/ │ │ ├── com/automation/SeleniumProject/ │ │ │ ├── App.java │ │ │ ├── BaseTest.java │ │ │ └── SearchTest.java │ │ └── com/automation/pages/ │ │ ├── HomePage.java │ │ ├── ProductPage.java │ │ └── SearchResultPage.java │ │ └── com/automation/utilities/ │ │ └── ExtentReportManager.java │ ├── test/ │ │ └── java/ │ │ └── com/automation/SeleniumProject/ │ │ ├── AppTest.java │ │ └── CartTest.java ├── pom.xml ├── reports/ │ └── ExtentReport.html ├── README.md └── .gitignore
 🧪 Test Cases Included
 CartTest.java → Verifies adding a laptop to cart and updating quantity.
 
@@ -69,10 +47,8 @@ After running tests, an ExtentReport (ExtentReport.html) will be generated insid
 Krishnapriya N
 www.linkedin.com/in/krishnapriya-n-bab8741bb
 
-📣 Contributions
-Contributions, issues, and feature requests are welcome!
+📣 Contributions, issues, and feature requests are welcome!
 Feel free to fork the repo and submit a pull request. 🤝
 
-📜 License
-This project is licensed under the MIT License.
+📜 This project is licensed under the MIT License.
 
